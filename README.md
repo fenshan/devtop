@@ -6,10 +6,13 @@ The game takes place at the desktop of Ashley, a young programmer who works for 
 
 Devtop was originally conceived by six UFV students as an university work, and the first prototype was finished by May 17, 2019. Maybe the project will be continued...
 
-ROLES:<br/>
+## ROLES:
 García García, Raúl: design, art<br/>
 García Garreta, Dani: design, animations<br/>
 Guardado Flores, Ana: design, art<br/>
-Nicolás Violant, Clara: design, chief programming https://twitter.com/fenshan_ <br/>
+Nicolás Violant, Clara: design, chief programming <br/>
 Piñas Barroso, Ignacio: music, art<br/>
 Rendón Gallardo, Roberto: design, programming, art<br/>
+
+Ask me anyting on twitter!
+Clara Nicolás, alias Fenshan: https://twitter.com/fenshan_
