@@ -14,5 +14,5 @@ Nicolás Violant, Clara: design, chief programming <br/>
 Piñas Barroso, Ignacio: music, art<br/>
 Rendón Gallardo, Roberto: design, programming, art<br/>
 
-Ask me anyting on twitter!
+Ask me anyting on twitter!<br/>
 Clara Nicolás, alias Fenshan: https://twitter.com/fenshan_
