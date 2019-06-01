@@ -10,6 +10,7 @@ public class ManagerFlappy : MonoBehaviour
     public bool gameOver;
     public GameObject GameOverSprite;
     public GameObject WinSprite;
+    public ScrollingObject scroll;
 
     public Text ScoreText;
     public float Score = 0;
@@ -45,10 +46,11 @@ public class ManagerFlappy : MonoBehaviour
     public void Lose()
     {
         gameOver = true;
+        scroll.Movement(false);
 
         if (Mathf.Floor(Score * 100) < 3000)
         {
-            GameOverSprite.SetActive(true);
+            if (!WinSprite.activeSelf) GameOverSprite.SetActive(true);
         }
         else
         {
@@ -60,6 +62,7 @@ public class ManagerFlappy : MonoBehaviour
     public void Restart()
     {
         gameOver = false;
+        scroll.Movement(true);
         FindObjectOfType<FlipFlopMovement>().ResetPosition();
         GameOverSprite.SetActive(false);
         Score = 0;

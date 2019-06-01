@@ -51,7 +51,7 @@ public class ManagerPhotoshop : MonoBehaviour
 
     bool CheckIfWin()
     {
-        if (currentLevel == 3) return false;
+        if (currentLevel == puzlesModels.Length) return false;
 
         //color and opacity
         Color headColor = personaje[0].GetComponent<Image>().color;
@@ -97,7 +97,7 @@ public class ManagerPhotoshop : MonoBehaviour
         PlayerPrefs.SetInt("PhotoshopLevel", currentLevel);
 
         //Win animations
-        if (currentLevel < 3)
+        if (currentLevel < puzlesModels.Length)
         {
             StartCoroutine(AnimationWinText());
         }
@@ -118,7 +118,7 @@ public class ManagerPhotoshop : MonoBehaviour
             else puzlesModels[i].SetActive(false);
         }
 
-        if (m == 3)
+        if (m == puzlesModels.Length)
         {
             PlayerPrefs.SetInt("key2", 1);
             finishText.SetActive(true);

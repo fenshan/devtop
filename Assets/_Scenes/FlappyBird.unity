@@ -959,6 +959,7 @@ MonoBehaviour:
   gameOver: 0
   GameOverSprite: {fileID: 1115294591}
   WinSprite: {fileID: 400393815}
+  scroll: {fileID: 1315854137}
   ScoreText: {fileID: 2045148808}
   Score: 0
 --- !u!1 &1315854132
@@ -1102,7 +1103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a9df697e0b0f0641a7533c7b58ac6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: -3
+  scrollSpeed: -1.5
 --- !u!1 &1429167738
 GameObject:
   m_ObjectHideFlags: 0

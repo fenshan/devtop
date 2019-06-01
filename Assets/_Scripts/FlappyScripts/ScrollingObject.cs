@@ -24,12 +24,12 @@ public class ScrollingObject : MonoBehaviour
         {
             transform.position = new Vector2(initialPosition, 0);
         }
-
-        // If the game is over, stop scrolling.
-        if (ManagerFlappy.instance.gameOver)
-        {
-            rb2d.velocity = Vector2.zero;
-        }
     }
+
+    public void Movement(bool b)
+    {
+        rb2d.velocity = b ? new Vector2(scrollSpeed, 0) : Vector2.zero;
+    }
+
 }
 
